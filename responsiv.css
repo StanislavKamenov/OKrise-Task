@@ -1,0 +1,398 @@
+@media (max-width: 1440px) {
+    .content {
+        right: 5%;
+    }
+
+    .footer-logo-section {
+        margin-left: 15vh;
+    }
+
+    .footer-links-section {
+        margin-left: 30vh;
+    }
+
+    .copyright {
+        margin-left: 15vh;
+    }
+
+    .language-selector {
+        margin-right: 15vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .allContent {
+        margin-left: 10vh;
+    }
+
+    .landing-image {
+        width: 600px;
+        height: 600px;
+    }
+
+    .content {
+        margin-left: 2vh;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .footer-logo-section,
+    .footer-links-section {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .copyright,
+    .language-selector {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-menu ul {
+        gap: 20px;
+    }
+
+    .landing-page {
+        flex-direction: column;
+        min-height: auto;
+        padding-bottom: 50px;
+    }
+
+    .allContent {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing-image {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+    }
+
+    .content {
+        position: static;
+        transform: none;
+        margin: 30px auto;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .preHeader,
+    .landingHeader,
+    .description {
+        width: 100%;
+        height: auto;
+    }
+
+    .landingHeader {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .sliderButtons {
+        display: none;
+    }
+
+    .all-sponsors {
+
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+        grid: 2;
+        grid-column: 2;
+        padding: 20px 0;
+    }
+
+    .all-sponsors img {
+        width: 80px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .seprator1, .seprator2 {
+        display: none;
+    }
+
+    .sliderButtons-sponsors {
+        display: none;
+    }
+
+    .banner img {
+        width: 90%;
+        height: 30rem;
+        object-fit: cover;
+    }
+
+    .banner h2 {
+        font-size: 32px;
+        line-height: 40px;
+        width: 80%;
+    }
+
+    .banner p {
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .linksHeader ul {
+        display: none;
+    }
+
+    .responsive {
+        display: block;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .landingHeader {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .cards {
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .footer-logo-section {
+        display: none;
+    }
+
+    .footer-links-section {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .currency {
+        display: none;
+    }
+
+    .language-selector {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .footer-logo-section-mobile {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo-section-mobile img {
+        max-width: 150px;
+    }
+
+    .logo-description {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    .footer-mobile-sections {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categorys-mobile-footer {
+        width: 100%;
+    }
+
+    .categorys-mobile-footer select {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #D0D5DD;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--text--color);
+    }
+
+    .language-selector-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .language-selector-mobile select {
+        padding: 8px 12px;
+        border: none;
+        background: none;
+        color: var(--text--color);
+        font-size: 14px;
+    }
+
+    .social-icons-mobile {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .social-icons-mobile img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .copyright-mobile {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        color: var(--footer-color--text);
+        font-size: 14px;
+    }
+
+    .landing-page {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        position: static;
+        transform: none;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    .preHeader,
+    .landingHeader,
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttonCollection {
+        margin: 20px auto;
+    }
+
+    .all-sponsors {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+        border: none;
+    }
+
+    .all-sponsors img {
+        width: 80px;
+        margin: 10px;
+    }
+
+    .seprator1, .seprator2 {
+        display: none;
+    }
+
+    .sliderButtons, .sliderButtons-sponsors {
+        display: none;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner h2 {
+        font-size: 28px;
+        line-height: 36px;
+        width: 90%;
+    }
+
+    .banner p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .banner button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-menu img {
+        height: 30px;
+    }
+
+    .landingHeader {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .preHeader {
+        font-size: 14px;
+    }
+
+    .buttonCollection {
+        font-size: 16px;
+    }
+
+    .all-sponsors img {
+        width: 60px;
+    }
+
+    .banner h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: -3vh;
+    }
+
+    .banner p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 3vh;
+    }
+
+    .banner button {
+        margin-top: 10vh;
+        font-size: 16px;
+    }
+
+    .logo-description {
+        width: 100%;
+    }
+}
