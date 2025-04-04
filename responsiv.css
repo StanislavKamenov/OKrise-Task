@@ -108,17 +108,19 @@
     }
 
     .all-sponsors {
-
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         width: 90%;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content: center;
+        overflow-x: auto;
         height: auto;
-        grid: 2;
-        grid-column: 2;
+        margin-left: 3.5rem;
         padding: 20px 0;
     }
 
     .all-sponsors img {
-        width: 80px;
+        width: auto;
         height: auto;
         margin: 10px;
     }
