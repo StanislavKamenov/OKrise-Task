@@ -1,6 +1,7 @@
 @media (max-width: 1440px) {
     .content {
         right: 5%;
+        max-width: 100%;
     }
 
     .footer-logo-section {
@@ -22,7 +23,7 @@
 
 @media (max-width: 1200px) {
     .allContent {
-        margin-left: 10vh;
+        margin-left: 0;
     }
 
     .landing-image {
@@ -67,6 +68,7 @@
         flex-direction: column;
         min-height: auto;
         padding-bottom: 50px;
+        overflow-x: hidden;
     }
 
     .allContent {
@@ -149,7 +151,46 @@
 
 @media (max-width: 768px) {
     .linksHeader ul {
-        display: none;
+    display: none;
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 8px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 100px;
+        background-color: var(--dot--color);
+    }
+
+    .dot-selected {
+        width: 10px;
+        height: 10px;
+        border-radius: 100px;
+        border: 1px solid #282828;
+        display: flex;
+        align-items: center;
+        margin-top: -0.30vh;
+        justify-content: center;
+    }
+
+    .dot-selected .dot {
+        width: 4px;
+        height: 4px;
+        border-radius: 100px;
+        background-color: #282828;
+    }
+
+
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .responsive {
@@ -334,7 +375,6 @@
 
     .banner img {
         width: 100%;
-        height: auto;
     }
 
     .banner h2 {

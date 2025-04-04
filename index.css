@@ -7,14 +7,21 @@
     --landing-background: #F9FAFB;
     --footer-color--text: #475467;
     --hover-color: #4a4a4a;
+    --dot--color:#D0D5DD;
     --transition-speed: 0.3s;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+html, body {
+    overflow-x: hidden;
+    width: 100%;
     user-select: none;
     font-family: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header {
